@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css" type="text/html">
+    <link rel="shortcut icon" href="./img/theater.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Theatre</title>
+</head>
+<body>
+    <div class="box">
+        <header id="header">
+    <div class="header__box">
+        <div class="header__bg" style="background-image: url('../img/header.jpg');">
+            <div class="header__menu-bg">
+                <div class="header__menu-left">
+                    <p>контактная информация</p>
+                    <div class="verical__line"></div>
+                    <div class="left__icon">
+                        <a href="#">
+                            <img src="./img/instagramactive.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="./img/facebook.svg" alt="facebook">
+                        </a>  
+                        <a href="#">
+                            <img src="./img/VK.svg" alt="VK">
+                        </a>
+                        <a href="#">
+                            <img src="./img/youtube.svg" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__container">
+                <div class="header__main">
+                    <div class="header__nav">
+                            <ul>
+                                <li>
+                                    <a href="#">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="#about-theare">о театре</a>
+                                </li>
+                                <li>
+                                    <a href="#our-post">Наши постановки</a>
+                                </li>
+                                <li>
+                                    <a href="#partner">партнеры театра</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">контакты</a>
+                                </li>
+                            </ul>
+                            <div class="header__tel">
+                                <a href="tel:+74951234567">+7 495 123-45-67</a>
+                            </div>
+                        </div>
+                    <!-- burger -->
+                    <span class="burger-menu" onclick="openNav()" >
+                        <img src="./img/burger.png" alt="burger">
+                    </span>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img src="./img/close.svg" alt="close">
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#Start"> Главная</a>
+                            </li>
+                            <li>
+                                <a href="#about-theare">о театре</a> 
+                            </li>
+                            <li>
+                                <a href="#our-post">Наши постановки</a> 
+                            </li>
+                            <li>
+                                <a href="#partner">партнеры театра</a> 
+                            </li>
+                            <li>
+                                <a href="#contact">контакты</a> 
+                            </li>
+                        </ul>
+                        <div class="sidenav__icon">
+                            <a href="#">
+                                <img src="./img/facebookicon.svg" alt="facebook">
+                            </a>
+                            <a href="#">
+                                <img src="./img/instaicon.svg" alt="insta">
+                            </a>  
+                            <a href="#">
+                                <img src="./img/vkicon.svg" alt="vk">
+                            </a>
+                            <a href="#">
+                                <img src="./img/youtubeicon.svg" alt="youtub">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- burger -->
+                    <div class="header__title">
+                        <div class="header__text">
+                            <h1>Большой театр</h1>
+                            <p>Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в    Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+                            <div class="header-btn">
+                                <button>афиша</button>
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <div class="image-slider swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="slider__img">
+                                                <img class="img__1" src="./img/header-book1.jpg" alt="img1">
+                                                <img class="img__2" src="./img/header-book2.png" alt="img2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slider__img">
+                                                <img class="img__1" src="./img/header-book1.jpg" alt="img1">
+                                                <img class="img__2" src="./img/header-book2.png" alt="img2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slider__img">
+                                                <img class="img__1" src="./img/header-book1.jpg" alt="img1">
+                                                <img class="img__2" src="./img/header-book2.png" alt="img2">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slider__img">
+                                                <img class="img__1" src="./img/header-book1.jpg" alt="img1">
+                                                <img class="img__2" src="./img/header-book2.png" alt="img2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-prev swip" > <img src="./img/arr.svg" alt="arr"> <p> пред</p>
+                                    </div>
+                                    <div class="swiper-button-next swip r-active" ><p>след</p><img src="./img/arr.svg" alt="arr">
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</header>
+        <main>
+    <div class="main-box">
+        <div class="main-bg">
+            <div class="main-content">
+                    <div class="main-title">
+                        <p id="about-theare"><span>о</span>театре</p>
+                    </div>
+                    <div class="main-about">
+                        <div class="about-box__1">
+                            <p class="about-title">Самый лучший театр СПБ</p>
+                            <p class="about-text">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+                        </div>
+                        <div class="about-box__2">
+                            <p class="about-title">немного о цифрах</p>
+                            <img class="about-img__1" src="./img/armchair.svg" alt="armchair">
+                            <p class="white"><span class="yelllow">1600</span>посадочный мест</p>
+                            <img class="about-img__1" src="./img/theater-icon.svg" alt="armchair">
+                            <p class="white"><span class="yelllow">350</span>лет истории</p>
+                        </div>
+                        <div class="about-box__3">
+                            <img src="./img/theatre.jpg" alt="theatre">
+                        </div>
+                    </div> 
+                </div>
+                <div class="main-gallery">
+                    <div class="main-title">
+                        <p id="our-post"><span>наши</span>постановки</p>
+                    </div>
+                    <div class="popup-gallery">
+                            <div class="slider">
+                                <a href="./img/img1.jpg" title="Оскар 2022">
+                                    <div class="slider-item " style="background-image: url('./img/img1.jpg');">
+                                        <div class="block-hover"></div>
+                                        <div class="img-search">
+                                            <img src="./img/search.png" alt="search">
+                                        </div>
+                                        <div class="img-title">
+                                            <p>ОСКАР 2022</p>
+                                        </div>
+                                        <div class="img-about">
+                                            <p>сентябрь 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="./img/img2.jpg" title="Морской волк">
+                                    <div class="slider-item" style="background-image: url('./img/img2.jpg');">
+                                        <div class="block-hover"></div>
+                                        <div class="img-search">
+                                            <img src="./img/search.png" alt="search">
+                                        </div>
+                                        <div class="img-title">
+                                            <p>Морской волк</p>
+                                        </div>
+                                        <div class="img-about">
+                                            <p>Октябрь 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="./img/img3.jpg" title="Золотой грамофон">
+                                    <div class="slider-item " style="background-image: url('./img/img3.jpg');">
+                                        <div class="block-hover"></div>
+                                        <div class="img-search">
+                                            <img src="./img/search.png" alt="search">
+                                        </div>
+                                        <div class="img-title">
+                                            <p>золотой грамофон</p>
+                                        </div>
+                                        <div class="img-about">
+                                            <p>июль 2022</p>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="./img/img4.jpg" title="Щелкунчик">
+                                    <div class="slider-item" style="background-image: url('./img/img4.jpg');">
+                                        <div class="block-hover"></div>
+                                        <div class="img-search">
+                                            <img src="./img/search.png" alt="search">
+                                        </div>
+                                        <div class="img-title">
+                                            <p>щелкунчик</p>
+                                        </div>
+                                        <div class="img-about">
+                                            <p>май 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-content">       
+                            <div class="bacground-img">
+                                <div class="theatre-year">
+                                    <p>2018</p>
+                                    <p>2019</p>
+                                    <p>2020</p>
+                                </div>
+                                <div class="theatre-review">
+                                    <div class="rating">
+                                        <img src="./img/stars.svg" alt="star">
+                                    </div>
+                                    <div class="review-text">
+                                        <p>Лучший театр
+                                            по мнению театральных критиков Парижа</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-title">
+                                <p id="partner"><span>Партнёры</span>театра</p>
+                            </div>
+                            <div class="main-partner">
+                                <img src="./img/logo.jpg" alt="logo">
+                                <img src="./img/logo.jpg" alt="logo">
+                                <img src="./img/logo.jpg" alt="logo">
+                                <img src="./img/logo.jpg" alt="logo">
+                                <img src="./img/logo.jpg" alt="logo">
+                                <img src="./img/logo.jpg" alt="logo">
+                                <img src="./img/logo.jpg" alt="logo">
+                                <img src="./img/logo.jpg" alt="logo">
+                            </div>
+                    </div>
+            </div>
+        </div>
+</main>
+        <footer>
+    <div class="footer-content">
+        <div class="main-title">
+            <p><span>Cтать</span>меценатом</p>
+        </div>  
+        <div class="footer-form">
+            <div id="contact" class="fooer-contact">
+                <a href="tel:+78121234555">+7 (812) 123-45-55 </a>
+                <a href="tel:+78121234555">+7 (812) 123-45-55 </a>
+                <p>info@theater.ru</p>
+                <p>г. санкт-петербург, невский 140</p>
+            </div>
+            <form action="" method="post">
+                <div class="block__input">
+                    <div class="block__input-1">
+                        <input class="input" type="text" name="Имя " placeholder="Имя">
+                        <input class="input" type="tel" name="Телефон" placeholder="Телефон">
+                    </div>
+                    <div class="block__input-2">
+                        <input class="input" type="text" name="Компания" placeholder="Компания">
+                        <input class="input" type="email" name="E-mail" placeholder="E-mail">
+                    </div>
+                        <textarea name="Сообщение" id="" cols="30" placeholder="Сообщение" rows="10"></textarea>
+                    </div>
+                    <div class="block__input-3">
+                        <p>* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+                        <button type="submit" class="form-btn">отправить</button>
+                    </div>
+            </form>
+        </div>
+        <div class="footer-line">
+            <p>(с) Все права защищены. Большой театр. 2022</p>
+            <p>Разработано d-e-n.ru</p>
+        </div>
+    </div>
+</footer>
+
+        <a href="#header" class="top">
+            <img src="/img/arrowUp.svg" alt="up">
+        </a>
+    </div>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/script.js" ></script>
+</body>
+</html>
